@@ -218,17 +218,18 @@
                     </execution>
                 </executions>
             </plugin>
+            <!--
             <plugin>
                 <groupId>com.mycila</groupId>
                 <artifactId>license-maven-plugin</artifactId>
-                <version>2.5</version>
+                <version>4.2</version>
                 <configuration>
                     <header>com/mycila/maven/plugin/license/templates/APACHE-2.txt</header>
                     <properties>
                         <owner>Nekkra UG</owner>
                         <email>oss@kraken.io</email>
                     </properties>
-                    <includes>
+                     <includes>
                         <include>**/*.java</include>
                     </includes>
                 </configuration>
@@ -239,7 +240,7 @@
                         </goals>
                     </execution>
                 </executions>
-            </plugin>
+            </plugin> -->
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-release-plugin</artifactId>

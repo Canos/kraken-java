@@ -4,4 +4,4 @@ stages:
 compiling:
   stage: build
   script:
-    - mvn --batch-mode --errors --fail-at-end --show-version clean install
+    - ./mvnw --batch-mode --errors --fail-at-end --show-version clean install
