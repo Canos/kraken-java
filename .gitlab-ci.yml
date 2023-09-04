@@ -1,0 +1,7 @@
+stages:
+  - build
+
+compiling:
+  stage: build
+  script:
+    - mvn clean install
